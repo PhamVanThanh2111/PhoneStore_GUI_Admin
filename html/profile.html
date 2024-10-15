@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Order Detail</title>
+    <title>Profile</title>
 
     <!-- Custom fonts for this template-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet" type="text/css">
@@ -106,7 +106,6 @@
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
-
         </ul>
         <!-- End of Sidebar -->
 
@@ -321,7 +320,7 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Order Detail</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Add Order</h1>
                     </div>
 
                     <div class="row">
@@ -331,82 +330,71 @@
                             <!-- Basic Card Example -->
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
-                                    <h5 class="m-0 font-weight-bold text-primary">Order Information</h5>
+                                    <h6 class="m-0 font-weight-bold text-primary">Order Information</h6>
                                 </div>
                                 <div class="card-body">
-                                    <!-- Order Information -->
-                                    <h5 class="card-title">Order #12345</h5>
                                     
-                                    <!-- Customer Information -->
-                                    <div class="mb-3 mt-3">
-                                        <h6 class="font-weight-bold text-primary">Customer Information</h6>
+                                    <!-- Admin Profile Picture -->
+                                    <div class="mb-3 text-center">
+                                        <img src="../img/undraw_profile.svg" class="img-thumbnail" alt="Admin Photo" style="width: 200px; height: 200px; border-width: 0">
+                                    </div>
+                                    
+                                    <!-- Admin General Information -->
+                                    <div class="mb-3">
+                                        <h6 class="font-weight-bold text-primary">Admin Information</h6>
                                         <ul class="list-group">
-                                            <li class="list-group-item"><strong>Name:</strong> John Doe</li>
-                                            <li class="list-group-item"><strong>Email:</strong> john.doe@example.com</li>
-                                            <li class="list-group-item"><strong>Phone:</strong> +1 234 567 890</li>
-                                            <li class="list-group-item"><strong>Address:</strong> 123 Main Street, City, Country</li>
+                                            <li class="list-group-item"><strong>Full Name:</strong> Jane Smith</li>
+                                            <li class="list-group-item"><strong>Username:</strong> admin.jane</li>
+                                            <li class="list-group-item"><strong>Email:</strong> admin.jane@example.com</li>
+                                            <li class="list-group-item"><strong>Phone Number:</strong> (987) 654-3210</li>
+                                            <li class="list-group-item"><strong>Address:</strong> 456 Admin Ave, Admin City, AC 12345</li>
                                         </ul>
                                     </div>
                                 
-                                    <!-- Product Information -->
+                                    <!-- Additional Admin Details -->
                                     <div class="mb-3">
-                                        <h6 class="font-weight-bold text-primary">Product Information</h6>
+                                        <h6 class="font-weight-bold text-primary">Additional Information</h6>
                                         <table class="table table-bordered">
                                             <thead>
                                                 <tr>
-                                                    <th>Product</th>
-                                                    <th>Quantity</th>
-                                                    <th>Price</th>
-                                                    <th>Total</th>
+                                                    <th>Attribute</th>
+                                                    <th>Details</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>Product 1</td>
-                                                    <td>2</td>
-                                                    <td>$50</td>
-                                                    <td>$100</td>
+                                                    <td>Date of Birth</td>
+                                                    <td>February 25, 1985</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Product 2</td>
-                                                    <td>1</td>
-                                                    <td>$75</td>
-                                                    <td>$75</td>
+                                                    <td>Gender</td>
+                                                    <td>Female</td>
                                                 </tr>
                                                 <tr>
-                                                    <td colspan="3" class="text-right"><strong>Subtotal</strong></td>
-                                                    <td>$175</td>
+                                                    <td>Account Created</td>
+                                                    <td>July 10, 2018</td>
                                                 </tr>
                                                 <tr>
-                                                    <td colspan="3" class="text-right"><strong>Shipping</strong></td>
-                                                    <td>$10</td>
-                                                </tr>
-                                                <tr>
-                                                    <td colspan="3" class="text-right"><strong>Total</strong></td>
-                                                    <td><strong>$185</strong></td>
+                                                    <td>Role</td>
+                                                    <td>Administrator</td>
                                                 </tr>
                                             </tbody>
                                         </table>
                                     </div>
                                 
-                                    <!-- Order Time Information -->
+                                    <!-- Account Settings -->
                                     <div class="mb-3">
-                                        <h6 class="font-weight-bold text-primary">Order Time Information</h6>
+                                        <h6 class="font-weight-bold text-primary">Account Settings</h6>
                                         <ul class="list-group">
-                                            <li class="list-group-item"><strong>Order Date:</strong> January 10, 2024</li>
-                                            <li class="list-group-item"><strong>Delivery Date:</strong> January 15, 2024</li>
-                                            <li class="list-group-item"><strong>Status:</strong> Shipped</li>
+                                            <li class="list-group-item"><strong>Status:</strong> Active</li>
+                                            <li class="list-group-item"><strong>Last Login:</strong> March 28, 2024, 9:45 AM</li>
                                         </ul>
                                     </div>
                                 
-                                    <!-- Payment Information -->
-                                    <div class="mb-3">
-                                        <h6 class="font-weight-bold text-primary">Payment Information</h6>
-                                        <ul class="list-group">
-                                            <li class="list-group-item"><strong>Payment Method:</strong> Credit Card (**** **** **** 1234)</li>
-                                            <li class="list-group-item"><strong>Total Paid:</strong> $185</li>
-                                            <li class="list-group-item"><strong>Payment Status:</strong> Paid</li>
-                                        </ul>
+                                    <!-- Action Buttons -->
+                                    <div class="mb-3 text-center">
+                                        <a href="#" class="btn btn-primary">Edit Profile</a>
+                                        <a href="#" class="btn btn-secondary">Change Password</a>
                                     </div>
                                 </div>                                
                             </div>
@@ -462,4 +450,4 @@
 
 </body>
 
-</html>
+>
